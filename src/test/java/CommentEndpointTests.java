@@ -1,7 +1,6 @@
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.restassured.response.ValidatableResponse;
 import org.junit.jupiter.api.Test;
 import training.PostData;
 
