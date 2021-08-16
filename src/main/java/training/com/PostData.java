@@ -1,4 +1,4 @@
-package training;
+package training.com;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 
@@ -14,15 +14,10 @@ public class PostData
     @JsonCreator
     public PostData(int id, String Email, String FName, String PostId){
 
-        this.id = id;
-        this.Email = Email;
-        this.FName = FName;
-        this.PostId = PostId;
-
-        /*setId(id);
+        setId(id);
         setEmail(Email);
         setFName(FName);
-        setPostId(PostId);*/
+        setPostId(PostId);
 
     }
 
