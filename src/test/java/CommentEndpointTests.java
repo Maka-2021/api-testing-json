@@ -191,10 +191,10 @@ public class CommentEndpointTests
         String endpoint = "https://retoolapi.dev/cI5RBd/data";
 
         PostData postData = new PostData(
-                10,
-                "bpidler5y@booking.com",
-                "Cletus Jakubowsky",
-                "786"
+                15,
+                "apyne3o@sourceforge.net",
+                "Will MacCafferky",
+                "591"
         );
 
         var response = given().body(postData).when().post(endpoint).then();

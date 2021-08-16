@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-@JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 public class PostData
 {
     private int id;
@@ -15,7 +14,7 @@ public class PostData
     //public PostData(){}
 
     @JsonCreator
-    public PostData(@JsonProperty("id") int id, @JsonProperty("Email") String Email, @JsonProperty("FName") String FName, @JsonProperty("PostId") String PostId){
+    public PostData(int id, String Email, String FName, String PostId){
 
         this.id = id;
         this.Email = Email;
