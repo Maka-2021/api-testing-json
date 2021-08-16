@@ -1,4 +1,4 @@
-package training;
+package java;
 
 public class UserData
 {
